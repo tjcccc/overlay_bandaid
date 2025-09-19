@@ -5,7 +5,9 @@
 Some games running in Linux with Gamescope may experience stuck or freeze issues, and errors in the console will be like:
 
 ```bash
-xdg_backend: Compositor released us but we were not acquired. Oh no.
+[gamescope] [Error] xdg_backend: Compositor released us but we were not acquired. Oh no.
+[gamescope] [Error] xdg_backend: Compositor released us but we were not acquired. Oh no.
+[gamescope] [Error] xdg_backend: Compositor released us but we were not acquired. Oh no.
 ```
 
 I found that putting an app window over the game screen. Those games will be unfrozen and work as usual.
